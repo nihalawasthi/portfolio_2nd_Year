@@ -89,9 +89,8 @@ const aboutData = [
 ];
 */
 const About = () => {
-  return (
-    /*<div>
-      {aboutData.map((category, categoryIndex) => (
+  return <div> About
+      {/*{aboutData.map((category, categoryIndex) => (
         <div key={categoryIndex}>
           <h2>{category.title}</h2>
           {category.info.map((item, itemIndex) => (
@@ -105,8 +104,8 @@ const About = () => {
             </div>
           ))}
         </div>
-      ))}
-    </div>*/ About )
+      ))}*/}
+    </div> 
 };
 
 export default About;
