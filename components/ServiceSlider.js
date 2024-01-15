@@ -1,15 +1,10 @@
 import {
-  RxCrop,
-  RxPencil2,
-  RxDesktop,
-  RxReader,
-  RxRocket,
   RxArrowTopRight,
 } from "react-icons/rx";
 
 import Image from "next/image";
-
-import {Swiper, SwiperSlide} from "Swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
