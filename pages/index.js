@@ -15,19 +15,19 @@ const Home = () => {
 
   useEffect(() => {
     let currentIndex = 0;
-
+  
     const typingInterval = setInterval(() => {
       setTypedText((prevText) => prevText + textToType[currentIndex]);
       currentIndex++;
-
+  
       if (currentIndex === textToType.length) {
         clearInterval(typingInterval);
         currentIndex = 0;
       }
     }, 50);
-
+  
     return () => clearInterval(typingInterval);
-  }, []);
+  }, [textToType]);  
 
   return (
     <div className='bg-primary/60 h-full'>

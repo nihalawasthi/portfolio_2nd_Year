@@ -16,7 +16,7 @@ import {
 } from "react-icons/si";
 
 
-//  data
+/*
 const aboutData = [
   {
     title: 'skills',
@@ -87,10 +87,10 @@ const aboutData = [
     ],
   },
 ];
-
+*/
 const About = () => {
   return (
-    <div>
+    /*<div>
       {aboutData.map((category, categoryIndex) => (
         <div key={categoryIndex}>
           <h2>{category.title}</h2>
@@ -106,8 +106,7 @@ const About = () => {
           ))}
         </div>
       ))}
-    </div>
-  );
+    </div>*/ About )
 };
 
 export default About;
