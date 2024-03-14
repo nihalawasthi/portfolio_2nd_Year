@@ -16,26 +16,31 @@ export const serviceData = [
     icon: <Image src={'/thumb1.jpg'} width={838} height={688} alt=""/>,
     title: 'Phablet',
     description: 'Phablet - A multi-layered encryption algorithm to safeguard plaintext data.',
+    link: 'https://phablet.onrender.com/'
   },
   {
     icon: <Image src={'/thumb3.jpg'} width={838} height={688} alt=""/>,
     title: 'Wednesday',
     description: 'Wednesday - your AI companion redefining interaction!.',
+    link: 'https://wednesday.onrender.com/'
   },
   {
     icon: <Image src={'/thumb4.jpg'} width={838} height={688} alt=""/>,
     title: 'Eclipse',
     description: 'Eclipse of Eternity : The Aetherium Chronicles - Classic Hack&slash game',
+    link: 'https://eclipse.onrender.com/'
   },
   {
     icon: <Image src={'/thumb2.jpg'} width={838} height={688} alt=""/>,
     title: 'Games',
     description: 'Games - Your Personal Web Games List in a innovative way',
+    link: 'https://github.com/nihalawasthi/Web_Extensions'
   },
   {
     icon: <Image src={'/thumb1.jpg'} width={838} height={688} alt=""/>,
     title: 'Minor Projects',
     description: 'A Collection of Web Pages, Games, Extensions and Many Cryptographic algorithms',
+    link: 'https://github.com/nihalawasthi/'
   },
 ];
 
@@ -68,7 +73,9 @@ const ServiceSlider = () => {
               <p className='max-w-[350px] leading-normal'>{item.description}</p>
             </div>
             <div className='text-3xl'>
+            <a href={item.link} target="_blank">
               <RxArrowTopRight className='group-hover:rotate-45 group-hover:text-accent transition-all duration-300' />
+            </a>
             </div>
           </div>
         </SwiperSlide>
